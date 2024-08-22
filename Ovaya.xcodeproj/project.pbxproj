@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3B00ACE2C77530400715EB1 /* OvayaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B00ACD2C77530400715EB1 /* OvayaApp.swift */; };
+		E3B00AD02C77530400715EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B00ACF2C77530400715EB1 /* ContentView.swift */; };
+		E3B00AD22C77530700715EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B00AD12C77530700715EB1 /* Assets.xcassets */; };
+		E3B00AD52C77530700715EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B00AD42C77530700715EB1 /* Preview Assets.xcassets */; };
+		E3B00ADF2C77530700715EB1 /* OvayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B00ADE2C77530700715EB1 /* OvayaTests.swift */; };
+		E3B00AE92C77530700715EB1 /* OvayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B00AE82C77530700715EB1 /* OvayaUITests.swift */; };
+		E3B00AEB2C77530700715EB1 /* OvayaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B00AEA2C77530700715EB1 /* OvayaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3B00ADB2C77530700715EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B00AC22C77530400715EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B00AC92C77530400715EB1;
+			remoteInfo = Ovaya;
+		};
+		E3B00AE52C77530700715EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B00AC22C77530400715EB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B00AC92C77530400715EB1;
+			remoteInfo = Ovaya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3B00ACA2C77530400715EB1 /* Ovaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ovaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B00ACD2C77530400715EB1 /* OvayaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvayaApp.swift; sourceTree = "<group>"; };
+		E3B00ACF2C77530400715EB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3B00AD12C77530700715EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3B00AD42C77530700715EB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3B00ADA2C77530700715EB1 /* OvayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvayaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B00ADE2C77530700715EB1 /* OvayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvayaTests.swift; sourceTree = "<group>"; };
+		E3B00AE42C77530700715EB1 /* OvayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OvayaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B00AE82C77530700715EB1 /* OvayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvayaUITests.swift; sourceTree = "<group>"; };
+		E3B00AEA2C77530700715EB1 /* OvayaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvayaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3B00AC72C77530400715EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B00AD72C77530700715EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B00AE12C77530700715EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3B00AC12C77530400715EB1 = {
+			isa = PBXGroup;
+			children = (
+				E3B00ACC2C77530400715EB1 /* Ovaya */,
+				E3B00ADD2C77530700715EB1 /* OvayaTests */,
+				E3B00AE72C77530700715EB1 /* OvayaUITests */,
+				E3B00ACB2C77530400715EB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3B00ACB2C77530400715EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3B00ACA2C77530400715EB1 /* Ovaya.app */,
+				E3B00ADA2C77530700715EB1 /* OvayaTests.xctest */,
+				E3B00AE42C77530700715EB1 /* OvayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B00ACC2C77530400715EB1 /* Ovaya */ = {
+			isa = PBXGroup;
+			children = (
+				E3B00ACD2C77530400715EB1 /* OvayaApp.swift */,
+				E3B00ACF2C77530400715EB1 /* ContentView.swift */,
+				E3B00AD12C77530700715EB1 /* Assets.xcassets */,
+				E3B00AD32C77530700715EB1 /* Preview Content */,
+			);
+			path = Ovaya;
+			sourceTree = "<group>";
+		};
+		E3B00AD32C77530700715EB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3B00AD42C77530700715EB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3B00ADD2C77530700715EB1 /* OvayaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B00ADE2C77530700715EB1 /* OvayaTests.swift */,
+			);
+			path = OvayaTests;
+			sourceTree = "<group>";
+		};
+		E3B00AE72C77530700715EB1 /* OvayaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B00AE82C77530700715EB1 /* OvayaUITests.swift */,
+				E3B00AEA2C77530700715EB1 /* OvayaUITestsLaunchTests.swift */,
+			);
+			path = OvayaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3B00AC92C77530400715EB1 /* Ovaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B00AEE2C77530700715EB1 /* Build configuration list for PBXNativeTarget "Ovaya" */;
+			buildPhases = (
+				E3B00AC62C77530400715EB1 /* Sources */,
+				E3B00AC72C77530400715EB1 /* Frameworks */,
+				E3B00AC82C77530400715EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ovaya;
+			productName = Ovaya;
+			productReference = E3B00ACA2C77530400715EB1 /* Ovaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3B00AD92C77530700715EB1 /* OvayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B00AF12C77530700715EB1 /* Build configuration list for PBXNativeTarget "OvayaTests" */;
+			buildPhases = (
+				E3B00AD62C77530700715EB1 /* Sources */,
+				E3B00AD72C77530700715EB1 /* Frameworks */,
+				E3B00AD82C77530700715EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B00ADC2C77530700715EB1 /* PBXTargetDependency */,
+			);
+			name = OvayaTests;
+			productName = OvayaTests;
+			productReference = E3B00ADA2C77530700715EB1 /* OvayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3B00AE32C77530700715EB1 /* OvayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B00AF42C77530700715EB1 /* Build configuration list for PBXNativeTarget "OvayaUITests" */;
+			buildPhases = (
+				E3B00AE02C77530700715EB1 /* Sources */,
+				E3B00AE12C77530700715EB1 /* Frameworks */,
+				E3B00AE22C77530700715EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B00AE62C77530700715EB1 /* PBXTargetDependency */,
+			);
+			name = OvayaUITests;
+			productName = OvayaUITests;
+			productReference = E3B00AE42C77530700715EB1 /* OvayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3B00AC22C77530400715EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E3B00AC92C77530400715EB1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E3B00AD92C77530700715EB1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3B00AC92C77530400715EB1;
+					};
+					E3B00AE32C77530700715EB1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3B00AC92C77530400715EB1;
+					};
+				};
+			};
+			buildConfigurationList = E3B00AC52C77530400715EB1 /* Build configuration list for PBXProject "Ovaya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3B00AC12C77530400715EB1;
+			productRefGroup = E3B00ACB2C77530400715EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3B00AC92C77530400715EB1 /* Ovaya */,
+				E3B00AD92C77530700715EB1 /* OvayaTests */,
+				E3B00AE32C77530700715EB1 /* OvayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3B00AC82C77530400715EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B00AD52C77530700715EB1 /* Preview Assets.xcassets in Resources */,
+				E3B00AD22C77530700715EB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B00AD82C77530700715EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B00AE22C77530700715EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3B00AC62C77530400715EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B00AD02C77530400715EB1 /* ContentView.swift in Sources */,
+				E3B00ACE2C77530400715EB1 /* OvayaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B00AD62C77530700715EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B00ADF2C77530700715EB1 /* OvayaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B00AE02C77530700715EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B00AE92C77530700715EB1 /* OvayaUITests.swift in Sources */,
+				E3B00AEB2C77530700715EB1 /* OvayaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3B00ADC2C77530700715EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B00AC92C77530400715EB1 /* Ovaya */;
+			targetProxy = E3B00ADB2C77530700715EB1 /* PBXContainerItemProxy */;
+		};
+		E3B00AE62C77530700715EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B00AC92C77530400715EB1 /* Ovaya */;
+			targetProxy = E3B00AE52C77530700715EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3B00AEC2C77530700715EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3B00AED2C77530700715EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3B00AEF2C77530700715EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ovaya/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somkuwar.Ovaya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3B00AF02C77530700715EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ovaya/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somkuwar.Ovaya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3B00AF22C77530700715EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somkuwar.OvayaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ovaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ovaya";
+			};
+			name = Debug;
+		};
+		E3B00AF32C77530700715EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somkuwar.OvayaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ovaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ovaya";
+			};
+			name = Release;
+		};
+		E3B00AF52C77530700715EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somkuwar.OvayaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ovaya;
+			};
+			name = Debug;
+		};
+		E3B00AF62C77530700715EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.somkuwar.OvayaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ovaya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3B00AC52C77530400715EB1 /* Build configuration list for PBXProject "Ovaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B00AEC2C77530700715EB1 /* Debug */,
+				E3B00AED2C77530700715EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B00AEE2C77530700715EB1 /* Build configuration list for PBXNativeTarget "Ovaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B00AEF2C77530700715EB1 /* Debug */,
+				E3B00AF02C77530700715EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B00AF12C77530700715EB1 /* Build configuration list for PBXNativeTarget "OvayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B00AF22C77530700715EB1 /* Debug */,
+				E3B00AF32C77530700715EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B00AF42C77530700715EB1 /* Build configuration list for PBXNativeTarget "OvayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B00AF52C77530700715EB1 /* Debug */,
+				E3B00AF62C77530700715EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3B00AC22C77530400715EB1 /* Project object */;
+}
